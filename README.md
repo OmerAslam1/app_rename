@@ -47,9 +47,9 @@ flutter pub run app_rename:main android="Android Name" ios="IOS Name" web="Web N
 
 | REQUIREMENT | COMMAND |
 | ------ | ------ |
-| All Same| ```flutter pub run rename_app:main all="App Name"``` |
-| Only Android | ```flutter pub run rename_app:main android="Android App"``` |
-| Only IOS | ```flutter pub run rename_app:main ios="IOS App"``` |
-| Only WEB | ```flutter pub run rename_app:main web="Web App"``` |
-| ONLY Windows | ```flutter pub run rename_app:main windows="Windows App"``` |
-| With Others |```flutter pub run rename_app:main android="Android App" ios="IOS App" others="Others App Name"``` |
+| All Same| ```flutter pub run app_rename:main all="App Name"``` |
+| Only Android | ```flutter pub run app_rename:main android="Android App"``` |
+| Only IOS | ```flutter pub run app_rename:main ios="IOS App"``` |
+| Only WEB | ```flutter pub run app_rename:main web="Web App"``` |
+| ONLY Windows | ```flutter pub run app_rename:main windows="Windows App"``` |
+| With Others |```flutter pub run app_rename:main android="Android App" ios="IOS App" others="Others App Name"``` |
