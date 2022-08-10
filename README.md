@@ -1,34 +1,24 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+App Rename Code is copied from https://github.com/Syed-Waleed-Shah/rename_app. I have just updated xml version because it was not working.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+If you want to automatically change your flutter app name with a single command then you are at the right package. This package gives you too many flexibilities through too many variants of its commands. Read the details below to know in more details
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+Features 🔥 ✅ Rename Android Project ✅ Rename IOS Project ✅ Rename WEB Project ✅ Rename Windows Project
 
-TODO: Put a short description of the package here that helps potential users know whether this package might be useful for them.
+How To Rename ? 🛠
 
-## Features
+1) ADD THE PACKAGE TO DEPENDENCIES IN pubspec.yaml flutter pub add app_rename OR
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+dependencies:
+app_rename: ^latest_version
 
-## Getting started
+2) PROVIDE THE APP NAME You can provide app name in the following ways
 
-TODO: List prerequisites and provide or point to information on how to start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to contribute to the package, how to file issues, what response they can expect from the package authors, and more.
+Same name for all apps flutter pub run rename_app:main all="My App Name"
+Separate name for specified platform(s) and same for all others flutter pub run rename_app:main android="Android Name" ios="IOS Name" others="Others Name"
+Separate name for each platform flutter pub run rename_app:main android="Android Name" ios="IOS Name" web="Web Name" mac="Mac Name" windows="Windows Name"
+More Flexibilities 😎 REQUIREMENT COMMAND All Same flutter pub run rename_app:main all="App Name"
+Only Android flutter pub run rename_app:main android="Android App"
+Only IOS flutter pub run rename_app:main ios="IOS App"
+Only WEB flutter pub run rename_app:main web="Web App"
+ONLY Windows flutter pub run rename_app:main windows="Windows App"
+With Others flutter pub run rename_app:main android="Android App" ios="IOS App" others="Others App Name"
